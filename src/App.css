@@ -1,0 +1,21 @@
+body{
+  background-color: antiquewhite;
+}
+.image-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+
+}
+
+.flickr-image:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+center {
+  margin: 40px 0;
+
+}
